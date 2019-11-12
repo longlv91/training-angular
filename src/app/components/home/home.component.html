@@ -1,0 +1,6 @@
+<h1>{{title}}</h1>
+<input [(ngModel)]="message"/>
+<p>Result message: {{message}}</p>
+<p>Reversed message: {{message | reverseText}}</p>
+<p appCustom>Attribute Directive message: {{message}}</p>
+<h6 *appMyCustomIf="message">Structural Directive message: {{message}}</h6>
