@@ -8,6 +8,7 @@ import { ReverseTextPipe } from './pipes/reverse-text.pipe';
 import { CustomDirective } from './directives/custom.directive';
 import { HomeComponent } from './components/home/home.component';
 import { MyCustomIfDirective } from './directives/my-custom-if.directive';
+import { CustomSortByPipe } from './pipes/custom-sort-by.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MyCustomIfDirective } from './directives/my-custom-if.directive';
     ReverseTextPipe,
     CustomDirective,
     HomeComponent,
-    MyCustomIfDirective
+    MyCustomIfDirective,
+    CustomSortByPipe
   ],
   imports: [
     BrowserModule,
